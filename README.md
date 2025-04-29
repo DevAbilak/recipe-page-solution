@@ -26,8 +26,8 @@ The challenge is to build out this recipe page and get it looking as close to th
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/DevAbilak/recipe-page-solution](https://github.com/DevAbilak/recipe-page-solution)
+- Live Site URL: [https://devabilak.github.io/recipe-page-solution/](https://devabilak.github.io/recipe-page-solution/)
 
 ## My process
 
@@ -53,4 +53,4 @@ li::marker {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@DevAbilak](https://www.frontendmentor.io/profile/DevAbilak)
