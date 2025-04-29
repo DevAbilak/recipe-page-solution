@@ -141,3 +141,19 @@ li::marker{
 .attribution a:hover, .attribution a:focus{
   color: hsl(14, 45%, 36%);
 }
+
+@media (max-width: 800px) {
+  .recipe-card{
+    padding: 0;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  .recipe-card img{
+    border-radius: 0;
+  }
+
+  .recipe-section{
+    padding: 0rem 4rem 4rem;
+  }
+}
