@@ -1,10 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-card{
+  background-color: hsl(0, 0%, 100%);
+  padding: 4rem;
+  max-width: 800px;
+  border-radius: 20px;
+  margin: 12rem 0rem;
+}
+
+.recipe-card img{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.recipe-card h1{
+  font-size: 3.5rem;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 2rem;
+}
+
+.recipe-card h2{
+  color: hsl(14, 45%, 36%);
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-card p, ol li, ul li {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.6rem;
+}
+
+.recipe-card p{
+  line-height: 1.4;
+}
+
+ol li, ul li{
+  list-style-position: inside;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+.Preparation-time-container{
+  background-color: hsla(330, 100%, 98%, 0.726);
+  padding: 2rem 2.5rem;
+  margin: 3.3rem 0rem;
+  border-radius: 10px;
+}
+
+.Preparation-time-container h3{
+  font-size: 1.8rem;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1.5rem;
+}
+
+.Preparation-time-container li::marker{
+  color: hsl(332, 51%, 32%);
+}
+
+.Ingredients-container, .Instructions-container{
+  padding-bottom: 2rem;
+  border-bottom: 0.1px solid hsl(30, 18%, 87%);
+  margin-bottom: 4rem;
+}
+
+.Instructions-container span{
+  color: hsl(24, 5%, 18%);
+  font-weight: 600;
+}
+
+.Nutrition-container p{
+  margin-bottom: 2rem;
+}
+
+.Nutrition-container ul{
+  list-style: none;
+}
+
+.Nutrition{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 2.5rem;
+  border-bottom: 0.1px solid hsl(30, 18%, 87%);
+  width: 100%;
+}
+
+.Nutrition span{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  width: 50%;
+}
+
+.Nutrition-4{
+  border: none;
+}
 
 .attribution { 
-  font-size: 11px; 
+  color: hsl(24, 5%, 18%);
+  font-size: 1.1rem; 
   text-align: center; 
 }
     
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover, .attribution a:focus{
+  color: hsl(14, 45%, 36%);
 }
